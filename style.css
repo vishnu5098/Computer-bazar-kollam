@@ -1,0 +1,52 @@
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .navbar .nav-link {
+  font-weight: 500;
+  color: #0d6efd !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #084298 !important;
+}
+
+#home h1 {
+  letter-spacing: 0.5px;
+}
+
+.carousel img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+    section {
+      padding: 60px 0;
+    }
+    .services-card {
+      transition: transform 0.3s ease;
+    }
+    .services-card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    #contact h2 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+#contact .form-control {
+  background-color: #eaf4ff;
+  border: 1px solid #bcd0f7;
+}
+
+#contact .form-control:focus {
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.4);
+}
+
